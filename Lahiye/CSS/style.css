@@ -4,37 +4,15 @@ body {
 
 /**TB SECTION START**/
 
-#tb {
-    background: rgb(230, 230, 230);
-}
-
-.tb-container {
-    width: 1366px;
+.tb-flex {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 22px;
+    margin: 44px 116px;
+    font-size: 27px;
 }
 
-.logo {
-    padding-left: 115px;
-    padding-top: 30px;
+#icon {
+    color: rgb(0, 211, 0);
 }
 
-.logo i {
-    font-size: 45px;
-    padding-right: 10px;
-    color: limegreen;
-}
-
-.logo span {
-    font-size: 30px;
-}
-
-.menu {
-    padding-top: 52px;
-    padding-right: 118px;
-}
-
-.menu i {
-    font-size: 28px;
-}
+/**TB SECTION END**/
