@@ -1,14 +1,22 @@
 body {
     margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
 }
 
 /**TB SECTION START**/
 
+.htb {
+    outline: 1px solid rgb(182, 182, 182);
+    outline-offset: 33px;
+}
+
 .tb-flex {
     display: flex;
     justify-content: space-between;
-    margin: 44px 116px;
+    margin: 24px 116px;
     font-size: 27px;
+    align-items: baseline;
 }
 
 #icon {
@@ -16,3 +24,43 @@ body {
 }
 
 /**TB SECTION END**/
+
+/**First Section Start */
+
+.fs {
+    display: flex;
+    justify-content: space-between;
+}
+
+#div-1 {
+    padding: 120px;
+}
+
+#h1 {
+    
+}
+
+#h4 {
+    text-transform: uppercase;
+    letter-spacing: 4px;    
+}
+
+#h1-span {
+    color: rgb(9, 255, 9);
+    font-weight: bold;
+}
+
+#p {
+
+}
+
+#button {
+    text-transform: uppercase;
+}
+
+#img {
+    height: 500px;
+    border-radius: 70px;
+    padding: 57px;
+}
+/**First Section End */
