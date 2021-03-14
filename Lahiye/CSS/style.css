@@ -1,17 +1,12 @@
 body {
     margin: 0%;
-    font-family: Arial, Helvetica, sans-serif;
     background-color: white;
+    font-family: 'Nunito', sans-serif;
 }
 
-/**TB SECTION START**/
+/**FIRST SECTION START**/
 
-.htb {
-    outline: 1px solid rgb(182, 182, 182);
-    outline-offset: 33px;
-}
-
-.tb-flex {
+.section-1 {
     display: flex;
     justify-content: space-between;
     margin: 24px 116px;
@@ -19,48 +14,115 @@ body {
     align-items: baseline;
 }
 
-#icon {
+#section-1-icon-lamp {
     color: rgb(0, 211, 0);
 }
 
-/**TB SECTION END**/
+/*!FIRST SECTION END**/
 
-/**First Section Start */
+/**sECOND SECTION START */
 
-.fs {
+.section-2 {
     display: flex;
     justify-content: space-between;
 }
 
-#div-1 {
-    padding: 120px;
+#section-2-div-1 {
+    padding: 35px 0px 0px 100px;
 }
 
-#h1 {
-    
+#section-2-h1 {
+    font-size: 55px;
 }
 
-#h4 {
-    text-transform: uppercase;
-    letter-spacing: 4px;    
-}
-
-#h1-span {
+#section-2-span {
     color: rgb(9, 255, 9);
     font-weight: bold;
+    font-size: 60px;
 }
 
-#p {
+#section-2-h4 {
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+#section-2-p {
+    font-family: cursive;
 
 }
 
-#button {
+#section-2-button {
     text-transform: uppercase;
 }
 
-#img {
-    height: 500px;
-    border-radius: 70px;
-    padding: 57px;
+#section-2-img {
+    height: 600px;
+    border-radius: 92px;
+    padding: 50px;
 }
-/**First Section End */
+
+/*!SECOND SECTION END */
+
+/**THIRD SECTION START */
+
+.section-3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#section-3-img {
+    height: 650px;
+    border-radius: 92px;
+    padding: 60px 0px 0px 55px;
+}
+
+#section-3-div-2 {
+    height: 600px;
+    border-radius: 70px;
+    padding: 133px;
+}
+
+/*!THIRD SECTION END */
+
+/**FOURTH SECTION START */
+
+#section-4 {
+    display: flex;
+    background-color: rgb(235, 235, 235);
+    justify-content: center;
+}
+
+#section-4>div {
+    padding: 30px;
+    font-size: 70px;
+    font-family: Cambria;
+    font-weight: bolder;
+    color: rgb(26, 216, 8);
+    text-align: center;
+}
+
+#section-4>div>p {
+    font-size: 20px;
+    color: darkolivegreen;
+}
+
+/*!FOURTH SECTION END  */
+
+/* *FIFTH SECTION START */
+
+#section-5>div {
+    display: flex;
+    justify-content: center;
+}
+
+#section-5-p {
+    padding-top: 10px;
+    padding-left: 100px;
+    text-align: center;
+    font-size: 17px;
+    padding-right: 100px;
+}
+
+/* !FIFTH SECTION END */
