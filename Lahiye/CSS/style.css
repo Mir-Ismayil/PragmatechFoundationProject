@@ -1,6 +1,5 @@
 body {
     margin: 0%;
-    background-color: white;
     font-family: 'Nunito', sans-serif;
 }
 
@@ -14,8 +13,8 @@ body {
     align-items: baseline;
 }
 
-#section-1-icon-lamp {
-    color: rgb(0, 211, 0);
+.section-1-icon-lamp i {
+    color: rgb(9, 255, 9);
 }
 
 /*!FIRST SECTION END**/
@@ -33,6 +32,7 @@ body {
 
 #section-2-h1 {
     font-size: 55px;
+    margin-bottom: 25px;
 }
 
 #section-2-span {
@@ -43,18 +43,27 @@ body {
 
 #section-2-h4 {
     text-transform: uppercase;
-    letter-spacing: 8px;
+    letter-spacing: 5px;
     font-weight: 600;
     font-size: 22px;
+    margin-bottom: 25px;
 }
 
 #section-2-p {
-    font-family: cursive;
+    font-family: serif;
 
 }
 
 #section-2-button {
     text-transform: uppercase;
+    outline: none;
+    border: none;
+    padding: 25px 25px;
+    border-radius: 50px;
+    background-color: rgb(9, 255, 9);
+    color: white;
+    letter-spacing: 5px;
+    margin-top: 25px;
 }
 
 #section-2-img {
@@ -84,6 +93,19 @@ body {
     padding: 133px;
 }
 
+.section-3-button {
+    outline: none;
+    border: none;
+    padding: 25px 25px;
+    border-radius: 50px;
+    background-color: rgb(9, 255, 9);
+    color: white;
+    letter-spacing: 5px;
+    margin-top: 25px;
+
+}
+
+
 /*!THIRD SECTION END */
 
 /**FOURTH SECTION START */
@@ -99,13 +121,13 @@ body {
     font-size: 70px;
     font-family: Cambria;
     font-weight: bolder;
-    color: rgb(26, 216, 8);
+    color: rgb(9, 255, 9);
     text-align: center;
 }
 
 #section-4>div>p {
     font-size: 20px;
-    color: darkolivegreen;
+    color: rgb(30, 134, 4);
 }
 
 /*!FOURTH SECTION END  */
@@ -121,8 +143,48 @@ body {
     padding-top: 10px;
     padding-left: 100px;
     text-align: center;
-    font-size: 17px;
+    font-size: 15px;
     padding-right: 100px;
+    line-height: 30px;
+    padding-bottom: 20px;
 }
 
 /* !FIFTH SECTION END */
+
+/** SIXTH SECTION START */
+
+#section-6 {
+    display: flex;
+    margin: auto 90px;
+    justify-content: center;
+}
+
+#section-6>div {
+    width: 25%;
+    background-color: white;
+    margin: 5px 15px;;
+    padding: 30px;
+    text-align: center;
+    font-family: Cambria;
+    box-shadow: 1px 1px 20px 5px rgb(131, 131, 131);
+}
+
+#section-6 i {
+    font-size: 60px;
+    color:rgb(9, 255, 9);
+    padding-top: 30px;
+}
+
+/* !SIXTH SECTION END */
+
+/* *SEVENTH SECTION START */
+
+
+
+
+
+
+
+
+/* !SEVENTH SECTION END */
+
