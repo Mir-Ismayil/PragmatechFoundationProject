@@ -1,6 +1,8 @@
 body {
     margin: 0%;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(/Lahiye/Images/gif.gif);
+    background-attachment: fixed;
 }
 
 /**FIRST SECTION START**/
@@ -112,7 +114,7 @@ body {
 
 #section-4 {
     display: flex;
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(255, 255, 255);
     justify-content: center;
 }
 
